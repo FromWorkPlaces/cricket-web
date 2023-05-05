@@ -5,7 +5,7 @@ import { auth, database } from '../firebase';
 
 const MUXPlayer = () => {
 
-    const [playBackID, setPlayBackID] = useState("R7TbackC00lxwB4TEAsO00I9m2zprhVLMAPDrHXSSOJVI")
+    const [playBackID, setPlayBackID] = useState("EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs")
 
     useEffect(() => {
         getPlaybackID()
